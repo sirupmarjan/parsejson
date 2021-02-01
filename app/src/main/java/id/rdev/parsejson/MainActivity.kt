@@ -1,5 +1,6 @@
 package id.rdev.parsejson
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -30,5 +31,9 @@ class MainActivity : AppCompatActivity() {
                 }
 
             })
+
+        btnShowPost.setOnClickListener {
+            startActivity(Intent(this@MainActivity, ShowPostActivity::class.java))
+        }
     }
 }

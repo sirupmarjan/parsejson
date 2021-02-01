@@ -1,9 +1,9 @@
 package id.rdev.parsejson.data
 
-import javax.annotation.Generated
+
 import com.google.gson.annotations.SerializedName
 
-@Generated("com.robohorse.robopojogenerator")
+
 data class Company(
 
 	@field:SerializedName("bs")
